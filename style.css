@@ -1,0 +1,69 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #51624F;
+  }
+
+  h1 {
+    color: #E6D5A9;
+  }
+
+  /* Still learning about the em measure */
+  img {
+    margin-top: 1em;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+  }
+
+  /* Style for header buttons */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #9CB4AC;
+    color: white;
+    padding: 10px 20px;
+  }
+
+  header button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 25%;
+    padding: 1em 2em;
+    margin-right: 1em;
+    cursor: pointer;
+  }
+
+  header button:last-child {
+    margin-right: 0;
+  }
+
+  /* I'm trying to center the a tag */
+  .btn-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+    padding: .5em;
+    height: 2em;
+    width: 15em;
+    /* border: solid; */
+  }
+
+  .btn-a {
+    background-color: #AFBEA2;
+    color: black;
+    border: solid;
+    padding: 0.5em;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  ul li a {
+    text-decoration: none;
+  }
