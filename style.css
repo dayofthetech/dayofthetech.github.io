@@ -1,3 +1,4 @@
+/* html changes the size of everything  */
 html {
     height: 100%;
     width: 100%;
@@ -11,10 +12,12 @@ html {
   /* Still learning about the em measure */
   img {
     margin-top: 1em;
-    width: 10em;
-    height: 10em;
+    width: 10%;
+    max-width: 10em;
+    height: auto;
     border-radius: 50%;
-  }
+}
+
 
   /* Style for header buttons */
   header {
@@ -38,6 +41,12 @@ html {
 
   header button:last-child {
     margin-right: 0;
+  }
+
+  /* paragraph intro - I can change fonts by calling them here */
+  .intro {
+    font-size: 1.5vw;
+    font-family:  poppins;
   }
 
   /* I'm trying to center the a tag */
